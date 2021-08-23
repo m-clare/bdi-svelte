@@ -19,25 +19,14 @@
 </svelte:head>
 
 <div class="content">
-	<h1>About this app</h1>
+	<h3>About</h3>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		This is a data visualization project utilizing the US DOT FHWA <a
+			href="https://www.fhwa.dot.gov/bridge/nbi/ascii.cfm"
+		>
+			National Bridge Inventory</a
+		> Dataset from 2020.
 	</p>
 </div>
 
@@ -46,5 +35,9 @@
 		width: 100%;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
+	}
+
+	a {
+		font-weight: bold;
 	}
 </style>

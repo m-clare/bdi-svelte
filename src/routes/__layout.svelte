@@ -1,10 +1,9 @@
 <script>
 	import Header from '$lib/header/Header.svelte';
-  import 'smelte/src/tailwind.css';
-	import "../app.postcss";
+	import "../app.css";
 </script>
 
-<Header>
+<Header />
 
 <main>
 	<slot>
@@ -44,5 +43,3 @@
 		}
 	}
 </style>
-</Header>
-<slot></slot>

@@ -1,5 +1,4 @@
 <script>
-	import Counter from '$lib/Counter.svelte';
   import Card from "smelte/src/components/Card";
   import Button from "smelte/src/components/Button";
   import Image from "smelte/src/components/Image";
@@ -28,8 +27,6 @@
 	</h2>
     </div>
   </Card.Card>
-
-	<Counter />
 </section>
 
 <style>
